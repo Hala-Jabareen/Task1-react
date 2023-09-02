@@ -1,0 +1,47 @@
+.PHeader {
+    background-color: teal;
+    height: 100px;
+    padding-top: 10px;
+    color: white;
+}
+
+.Post {
+    width: 600px;
+    padding-left: 400px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+
+}
+
+.inPost {
+    width: 600px;
+    border: 5px;
+    border-style: solid;
+    border-color: teal;
+}
+
+.SPage {
+    /* width: 300px; */
+    display: flex;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: teal;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+.Button button{
+    background-color: blueviolet;
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border-radius: 10px;
+
+}
+.Button:hover
+{
+    opacity: 0.6;
+}
